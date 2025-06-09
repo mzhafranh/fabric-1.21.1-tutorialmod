@@ -11,6 +11,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item ZX_LOGO = registerItem("zx_logo", new Item(new Item.Settings()));
+    public static final Item RAW_COMMONIUM = registerItem("raw_commonium", new Item(new Item.Settings()));
+    public static final Item COMMONIUM = registerItem("commonium", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
@@ -20,7 +22,8 @@ public class ModItems {
         TutorialMod.LOGGER.info("Registering Mod Items for " + TutorialMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(ZX_LOGO);
+            entries.add(RAW_COMMONIUM);
+            entries.add(COMMONIUM);
         });
     }
 }
