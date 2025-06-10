@@ -20,6 +20,12 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block COMMONIUM_ORE = registerBlock("commonium_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID, name), block);
@@ -34,6 +40,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.COMMONIUM_BLOCK);
+            entries.add(ModBlocks.COMMONIUM_ORE);
         });
     }
 }

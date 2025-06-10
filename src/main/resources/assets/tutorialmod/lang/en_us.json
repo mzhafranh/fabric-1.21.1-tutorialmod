@@ -3,5 +3,6 @@
   "item.tutorialmod.raw_commonium": "Raw Commonium",
   "item.tutorialmod.commonium": "Commonium",
 
-  "block.tutorialmod.commonium_block": "Block of Commonium"
+  "block.tutorialmod.commonium_block": "Block of Commonium",
+  "block.tutorialmod.commonium_ore": "Commonium Ore"
 }
