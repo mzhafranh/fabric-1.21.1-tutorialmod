@@ -5,6 +5,7 @@
 
   "block.tutorialmod.commonium_block": "Block of Commonium",
   "block.tutorialmod.commonium_ore": "Commonium Ore",
+  "block.tutorialmod.commonium_deepslate_ore": "Commonium Deepslate Ore",
 
   "itemgroup.tutorialmod.commonium_items": "Commonium Items",
   "itemgroup.tutorialmod.commonium_blocks": "Commonium Blocks"

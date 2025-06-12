@@ -29,6 +29,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.COMMONIUM_BLOCK);
                         entries.add(ModBlocks.COMMONIUM_ORE);
+                        entries.add(ModBlocks.COMMONIUM_DEEPSLATE_ORE);
                     }).build());
 
     public static void registerItemGroups(){
