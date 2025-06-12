@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "commonium",
+  "ingredient": {
+    "item": "tutorialmod:raw_commonium"
+  },
+  "result": {
+    "id": "tutorialmod:commonium"
+  }
+}
