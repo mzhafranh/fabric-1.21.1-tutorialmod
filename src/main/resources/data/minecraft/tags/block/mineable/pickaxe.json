@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:commonium_block",
+    "tutorialmod:commonium_ore",
+    "tutorialmod:commonium_deepslate_ore"
+  ]
+}

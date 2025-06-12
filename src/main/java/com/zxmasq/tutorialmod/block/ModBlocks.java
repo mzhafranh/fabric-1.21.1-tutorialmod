@@ -24,11 +24,16 @@ public class ModBlocks {
 
     public static final Block COMMONIUM_ORE = registerBlock("commonium_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
-                    AbstractBlock.Settings.create().strength(3f).requiresTool()));
+                    AbstractBlock.Settings.create()
+                            .strength(3f)
+                            .requiresTool()));
 
     public static final Block COMMONIUM_DEEPSLATE_ORE = registerBlock("commonium_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3,6),
-                    AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+                    AbstractBlock.Settings.create()
+                            .strength(4f)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
