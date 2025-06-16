@@ -30,6 +30,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COMMONIUM_BLOCK);
                         entries.add(ModBlocks.COMMONIUM_ORE);
                         entries.add(ModBlocks.COMMONIUM_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.MEOW_BLOCK);
                     }).build());
 
     public static void registerItemGroups(){

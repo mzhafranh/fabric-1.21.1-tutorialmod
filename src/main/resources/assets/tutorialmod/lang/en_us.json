@@ -8,6 +8,8 @@
   "block.tutorialmod.commonium_ore": "Commonium Ore",
   "block.tutorialmod.commonium_deepslate_ore": "Commonium Deepslate Ore",
 
+  "block.tutorialmod.meow_block": "Meow Block",
+
   "itemgroup.tutorialmod.commonium_items": "Commonium Items",
   "itemgroup.tutorialmod.commonium_blocks": "Commonium Blocks"
 }
